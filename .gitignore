@@ -1,0 +1,38 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+moxy
+meshrelief_bin
+
+# Build output directories
+build/
+bin/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Local Moxy test databases and identity keys
+*.json
+store_*/
+
+# Local testing logs (like n2.log)
+*.log
+
+# Editor and OS specific files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+.agent
+.agents
+.claude
